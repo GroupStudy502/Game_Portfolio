@@ -3,10 +3,10 @@ plugins {
     id 'application'
 }
 
-group = 'org.choongang'
+group = 'org.groupteam'
 version = '1.0-SNAPSHOT'
 
-mainClassName = 'org.choongang.Application'
+mainClassName = 'org.groupteam.Application'
 
 repositories {
     mavenCentral()
@@ -30,5 +30,5 @@ test {
 }
 
 tasks.jar {
-    manifest.attributes['Main-Class'] = 'org.choongang.Application'
+    manifest.attributes['Main-Class'] = 'org.groupteam.Application'
 }
